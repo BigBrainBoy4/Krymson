@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Krymson</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body onload="openTab('none')">
+    <div class=tab-container>
+        <button id="links-tab" class="tab fjalla-one-regular" onmouseover="openTab('links')" onmouseout="openTab('none')">Links</button>
+        <button id="about-tab" class="tab fjalla-one-regular" onmouseover="openTab('about')" onmouseout="openTab('none')">About us</button>
+        <button id="music-tab" class="tab fjalla-one-regular" onmouseover="openTab('music')" onmouseout="openTab('none')">Music</button>
+        <button id="videos-tab" class="tab fjalla-one-regular" onmouseover="openTab('videos')" onmouseout="openTab('none')">Videos</button>
+        <button id="shows-tab" class="tab fjalla-one-regular" onmouseover="openTab('shows')" onmouseout="openTab('none')">Shows</button>
+    </div>
+    
+    <div id="links" class="tabbed-content fjalla-one-regular" onmouseover="openTab('links')" onmouseout="openTab('none')">
+        <h3>Email:</h3>
+        <h3>bandkrymson@gmail.com</h3>
+        <a href="https://open.spotify.com/user/31jikrqd3o5poz74hljtuwgve7lm?si=1a3be5fc8c914706" target="_blank"><img class="link-pic" src="https://cdn-icons-png.flaticon.com/512/725/725281.png"></a>
+        <a href="https://www.youtube.com/channel/UCih868KNohECArYO3t1Qw4Q" target="_blank"><img class="link-pic" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png"></a>
+    </div> 
+    
+    <div id="about" class="tabbed-content fjalla-one-regular" onmouseover="openTab('about')" onmouseout="openTab('none')">
+        <h3>About us:</h3>
+        <h3>Lorem Ipsum</h3>
+    </div>
+    
+    <div id="music" class="tabbed-content fjalla-one-regular" onmouseover="openTab('music')" onmouseout="openTab('none')">
+        <h3>Past albums:</h3>
+        <h3>None</h3>
+        <h3>Albums in progress:</h3>
+        <h3>LabRat</h3>
+    </div>
+    
+    <div id="video" class="tabbed-content fjalla-one-regular" onmouseover="openTab('videos')" onmouseout="openTab('none')">
+        <details>
+            <summary>Insert song here</summary>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qn9g0i1TV5c?si=XYqRNChKM1rZPMFT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </details>
+        <hr>
+    </div>
+    <div id="shows" class="tabbed-content fjalla-one-regular" onmouseover="openTab('shows')" onmouseout="openTab('none')">
+        <h3>No shows planned currently</h3>
+    </div>
+    
+    <h1 id="title">Krymson</h1>
+    <script src="script.js"></script>
+  </body>
+</html>
