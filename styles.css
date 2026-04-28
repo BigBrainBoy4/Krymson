@@ -1,0 +1,95 @@
+:root {
+    --lightest-red:#FF4242;
+    --light-red:#E10000;
+    --main-red:#B00000;
+    --dark-red:#6D0000;
+    --darkest-red:#3A0000;
+    --tan:#FCE5CD;
+}
+
+body {
+    background-color: var(--light-red);
+}
+
+hr {
+    border: 2px solid var(--dark-red);
+}
+
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tab {
+    border:none;
+    background-color:var(--light-red);
+    color:var(--tan);
+    font-size:40px;
+    cursor: pointer;
+}
+
+/*.tab:hover {*/
+/*    background-color:var(--main-red);*/
+/*    color: var(--lightest-red)/*#ff3333; Krymson Red */
+/*}*/
+
+.tab-container {
+    display:flex;
+    justify-content:space-around;
+}
+
+.tabbed-content {
+    position:absolute;
+    margin:0px;
+    height:70%;
+    width:65%;
+    background-color:var(--main-red);
+    z-index:2;
+    border: 3px solid var(--dark-red);
+}
+
+#title {
+    color:var(--tan);
+    font-size:20vw;
+    align-items:center;
+	position: fixed;
+	top:30px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+#links {
+    padding:20px;
+    color:var(--tan);
+}
+
+#about {
+    left:10%;
+    padding:20px;
+    color:var(--tan);
+}
+
+#music {
+    left:20%;
+    padding:20px;
+    color:var(--tan);
+}
+
+#video {
+    left:30%;
+    padding:20px;
+    color:var(--tan);
+}
+
+#shows {
+    left:30%;
+    padding:20px;
+    color:var(--tan);
+}
+
+.link-pic {
+    width:100px;
+    padding:10px;
+}
